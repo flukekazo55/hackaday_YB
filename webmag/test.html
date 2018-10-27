@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+    <link rel="stylesheet" type="text/css" href="pop.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body bgcolor="#000000">
+<center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></center>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <link rel="stylesheet" type="text/css" href="pop.css">
+      <center><img src="tools.png" width="10%"></center>
+    </div>
+     <center><font face="JasmineUPC" size="20px">CREATE POST</font></center>
+    <div class="container">
+      <label for="uname"><b>TOPIC</b></label>
+      <input type="text" placeholder="PLEASE INPUT TOPIC" name="uname" required>
+      <br>
+      <label for="datee"><b>DATE</b></label>
+      <input type="date" name="datee" required>
+      <br>
+      <br>
+      <label for="pic"><b>PICTURE</b></label>
+      <br>
+      <br>
+      <form action="/action_page.php">
+        <input type="file" name="pic" accept="image/*">
+      </form>
+      <br>
+      <br>
+      <label for="psw"><b>DETAIL</b></label>
+      <input type="password" placeholder="PLEASE INPUT DETAIL" name="psw" required>
+        
+      <button type="submit">SUBMIT</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
