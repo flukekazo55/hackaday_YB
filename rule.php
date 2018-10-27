@@ -2,15 +2,15 @@
 <html lang="en">
 
   <head>
-	
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    
+
 	<!-- title + icon tab web site -->
 	<title>MESHADOW</title>
-	<link rel="icon" href="img/icon.png"> 
+	<link rel="icon" href="img/icon.png">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,10 +31,10 @@
     <!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html" style="color:white;" >Home</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.html" style="color:#00BFFF;" >Home</a>
 	  </div>
     </nav>
-	
+
 	    <!-- Law Section -->
 	<section id="projects" class="projects-section bg-black">
       <div class="container">
@@ -68,7 +68,7 @@
             </div>
           </div>
         </div>
-		
+
 		<!-- Law 3 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
@@ -98,7 +98,7 @@
             </div>
           </div>
         </div>
-		
+
 		<!-- Law 5 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
@@ -131,15 +131,20 @@ misunderstand.</p>
         </div>
 		<div  class="col-lg-12" align="center">
 			<a href="index.html">
-				<br><br><br><button href="index.html" class="btn mx-auto " style="background-color:red; color:white;" >disagree</button> 
+				<br><br><br><button href="index.html" class="btn mx-auto " style="background-color:red; color:white;" >disagree</button>
 			</a>
-			<a href="facebook_login.html">
-				<button href="choose_university.html" class="btn mx-auto" style="background-color:green; color:white;" >agree</button>
+
+			<a href="index.php">
+				<button href="index.php" class="btn mx-auto" style="background-color:green; color:white;" >
+				<div class="fblogin">
+					Agree
+				</div>
+				</button>
 			</a>
 		</div>
       </div>
     </section>
-	
+
 
 
 
