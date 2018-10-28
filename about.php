@@ -96,7 +96,7 @@
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-					<h4 class="text-white">Concept</h4>
+					<h4 class="text-white">Introduction</h4>
 					<p class="mb-0 text-white-50">1. The university is a place for knowledge and development for students.</p><br>
 					<p class="mb-0 text-white-50">2. Students are the product of university to be a future of the nation.</p><br>
 					<p class="mb-0 text-white-50">3. If students have a good quality life, they will be a good person.</p><br>
