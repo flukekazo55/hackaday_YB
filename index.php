@@ -63,13 +63,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger  " href="about.html" style="color:#00BFFF"><b>About</b></a>
+              <a class="nav-link js-scroll-trigger  " href="about.php" style="color:#00BFFF"><b>About</b></a>
             </li>
             <!-- <li class="nav-item"> -->
               <!-- <a class="nav-link js-scroll-trigger  " href="#help">Help</a> -->
             <!-- </li> -->
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger  " href="contract.html" style="color:#00BFFF" ><b>Contact</b></a>
+              <a class="nav-link js-scroll-trigger  " href="contract.php" style="color:#00BFFF" ><b>Contact</b></a>
             </li>
           </ul>
         </div>

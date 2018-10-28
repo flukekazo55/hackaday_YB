@@ -65,5 +65,5 @@ include 'config.php';
 
 	// User is logged in with a long-lived access token.
 	// You can redirect them to a members-only page.
-	header('Location: https://localhost/home/fb/choose_university.html');
+	header('Location: https://localhost/home/fb/choose_university.php');
  ?>
